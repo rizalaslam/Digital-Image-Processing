@@ -1,26 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink as RRNavLink
+} from 'react-router-dom';
+import {
+  Navbar,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink} from 'reactstrap';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import About from './components/About';
+import Home from './components/Home';
+import Footer from './components/Footer';
+
+class App extends Component {
+  render() {
+    return (
+      <Router>
+        <div>
+          <Navbar className="shadow" dark style={{  background: 'rgba(6, 117, 255, 0.54)' }}  expand="md">
+            <NavbarBrand tag={RRNavLink} exact to="/">Digital Image Processing</NavbarBrand>
+              <Nav className="ml-auto" navbar>
+                <NavItem>
+                  <NavLink tag={RRNavLink} exact to="/about" activeClassName="active">About</NavLink>
+                </NavItem>
+              </Nav>
+          </Navbar>
+          <Route exact path="/" component={Home}/>
+          <Route path="/home" component={Home}/>
+          <Route path="/about" component={About}/>
+          <Footer/>
+        </div>
+      </Router>
+    );
+  }
 }
+
 
 export default App;

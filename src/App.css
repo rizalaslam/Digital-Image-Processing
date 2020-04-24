@@ -23,7 +23,13 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+#canvas {
+  background: #ABABAB;
+  position: relative;
+  height: 352px;
+  width: 512px;
+  z-index: 1;
+}
 .App-link {
   color: #61dafb;
 }

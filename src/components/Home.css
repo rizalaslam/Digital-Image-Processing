@@ -1,0 +1,23 @@
+
+  #photo {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  }
+  #enhance {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+  }
+  
+  #photo-block {
+    margin: 0 auto;
+    max-width: 100%;
+    height: 55vh;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
