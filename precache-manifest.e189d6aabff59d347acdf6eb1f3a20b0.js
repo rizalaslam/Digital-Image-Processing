@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d88791e8f0df8777d966d166e9aed7ae",
+    "revision": "3163cf159a5c8415665d0b27439228f1",
     "url": "/Digital-Image-Processing/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Digital-Image-Processing/static/css/2.4ded7582.chunk.css"
   },
   {
-    "revision": "16b184edfcfe6196f0b0",
+    "revision": "b833da10d8227fedc938",
     "url": "/Digital-Image-Processing/static/css/main.ef28d83c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Digital-Image-Processing/static/js/2.667610c3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "16b184edfcfe6196f0b0",
-    "url": "/Digital-Image-Processing/static/js/main.a16d2a05.chunk.js"
+    "revision": "b833da10d8227fedc938",
+    "url": "/Digital-Image-Processing/static/js/main.e7e3ebb8.chunk.js"
   },
   {
     "revision": "5e325805e94c4f3339d1",
