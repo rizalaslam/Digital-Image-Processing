@@ -1,6 +1,7 @@
 {
   "name": "pcd",
   "version": "0.1.0",
+  "homepage": "http://rizalaslam.github.io/Digital-Image-Processing",
   "private": true,
   "dependencies": {
     "@emotion/core": "^10.0.28",
@@ -48,5 +49,16 @@
   "devDependencies": {
     "babel-plugin-emotion": "^10.0.33",
     "gh-pages": "^2.2.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rizalaslam/Digital-Image-Processing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rizalaslam/Digital-Image-Processing/issues"
   }
 }
