@@ -29,7 +29,7 @@ class App extends Component {
               </Nav>
           </Navbar>
           <Route exact path="/" component={Home}/>
-          <Route path="/Digital-Image-Processing" component={Home}/>
+          <Route path="/Digital-Image-Processing/" component={Home}/>
           <Route path="/home" component={Home}/>
           <Route path="/about" component={About}/>
           <Footer/>
